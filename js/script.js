@@ -727,7 +727,7 @@
 
             section.find(SLIDES_CONTAINER_SEL).css('width', sliderWidth + '%');
 
-            if(numSlides > 1 && larghezza > 500){
+            if(numSlides > 1){
                 if(options.controlArrows){
                     createSlideArrows(section);
                 }
@@ -788,7 +788,7 @@
 					section.css('background-repeat', "no-repeat");
 				}					
 				else if (options.sectionsColor[index] === '#7BAABE'){
-					section.css('background-image', "url(./img/pantaloneRotto.jpg)");
+					section.css('background-image', "url(./img/pantaloneRotto4.jpg)");
 					section.css('background-position', "center center"); 
 					section.css('background-size', "cover");	
 					section.css('background-repeat', "no-repeat");
