@@ -83,8 +83,8 @@ html.fp-enabled,
     z-index: 4;
     top: 50%;
     cursor: pointer;
-	width: 8vmin;
-	height: 8vmin;
+	width: 10vmin;
+	height: 10vmin;
     border-style: solid;
     margin-top: 0px;
     -webkit-transform: translate3d(0,0,0);
@@ -97,7 +97,7 @@ html.fp-enabled,
     border-width: 5vmin 4vmin 5vmin 5vim;
 
     border-color: transparent #fff transparent transparent;
-	background: url(../img/navigate_left1.png);
+	/*background: url(../img/arrows/navigate_left12.png);*/
 	background-size: cover;
 }
 .fp-controlArrow.fp-next {
@@ -105,7 +105,7 @@ html.fp-enabled,
 	border-width: 5vmin 4vmin 5vmin 5vim;
 
 
-	background: url(../img/navigate_right1.png);
+	background: url(../img/arrows/navigate_right2.png);
 	background-size: cover;
 
     border-color: transparent transparent transparent #fff;
@@ -282,13 +282,17 @@ caption,th {
 }
 @font-face {
   font-family: "Space Bd BT";
-  src: url(C:/Users/MATTE/Desktop/howimetu-WebSite/fonts/titolo.ttf) format("truetype");
+  src: url(../fonts/titolo.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Indie Flower";
+  src: url(../fonts/IndieFlower.ttf) format("truetype");
 }
 
 
 h1,h3,h4,h5,h6 {
     font-weight: bold;
-    font-size: 16vmin;
+    font-size: 18vmin;
 	font-family: "Space Bd BT", Source Sans Pro, sans-serif;
 	text-shadow: 4px 4px rgba(0,0,0,.4);
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
@@ -298,10 +302,11 @@ h1,h3,h4,h5,h6 {
 h2{
 	font-weight: bold;
     font-size: 12vmin;
-	font-family: "Space Bd BT", Source Sans Pro, sans-serif;
+	font-family:  "Indie Flower",Source Sans Pro, sans-serif;
 	text-shadow: 4px 4px rgba(0,0,0,.4);
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     color:#c9001f;
+	color: #000;
 }
 q:before,q:after {
     content:'';
@@ -325,11 +330,7 @@ body{
  
  
  
-p {
-    font-size: 7vw;
 
-	color: #000000;
-}
 .intro p{
 	width: 50%;
 	margin: 0 auto;
@@ -509,18 +510,19 @@ p {
 }
 p.introimg {
     color: #000000;
-    font-size: 5em;
+    font-size: 10vmin;
     margin: 3vmin;
-    line-height: 1em;
-	padding: 1vmin 0vmin 1vmin 0vmin;
+	padding: 2vmin 1vmin 2vmin 1vmin;
 }
 
 p{
-	font-size: 10vmin;
-	font-family: Source Sans Pro, sans-serif;
+	font-size: 8vmin;
+	font-family: "Indie Flower", Source Sans Pro, sans-serif;
 	text-shadow: 4px 4px rgba(0,0,0,.4);
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     color:#ffcc00;
+	color: #910505;
+	color: #000000;
 }
 	
 

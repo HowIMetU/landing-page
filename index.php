@@ -69,23 +69,27 @@ include("security/Analytics.php");
     <div class="section active" id="section0">
 		<div class="primaPagina">
 			<h1>mate<big>S</big>lot</h1>
-			<p>Il social che esce dal social</p>
+			<p>Il <big>social</big> che esce dai social</p>
 			<p class="introimg">&darr;&#9636;&darr;</p>
 		</div>
 	</div>
     <div class="section " id="section1">
-        <div class="slide" id="slide1">
-			<p>Conosci chi ti assomiglia !</p>     
+        <div class="slide active" id="slide1">
+
+			<p><big>Risparmiare</big> è semplice:</p>
+			<p>Trova con <big>chi</big></p>
+			<p>andare nei </p>
+			<p>posti che <big>ami</big></p>
+
+
         </div>
-        <div class="slide active" id="slide2">
+        <div class="slide " id="slide2">
 			<h2>Vorrei andarci, ma con chi ?</h2>
-			<p>Unisci nuovi e vecchi amici con cui</p>
-			<p>andare nei posti che ami</p>
-			<p>... o che vuoi scoprire!</p>
+			<p>Conosci chi ti assomiglia !</p> 
         </div>
         <div class="slide" id="slide3">
 
-			<p class="soldi">Insieme a te costa meno !</p>
+			<p class="soldi">Insieme a <big>te</big> costa meno !</p>
         </div>
 
     </div>
