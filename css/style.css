@@ -271,12 +271,28 @@ ol,ul {
 caption,th {
     text-align: left;
 }
-h1,h2,h3,h4,h5,h6 {
+@font-face {
+  font-family: "Space Bd BT";
+  src: url(C:/Users/MATTE/Desktop/howimetu-WebSite/fonts/titolo.ttf) format("truetype");
+}
+
+
+h1,h3,h4,h5,h6 {
     font-weight: bold;
-    font-size: 100%;
-    margin:0;
-    padding:0;
-    color:#000000;
+    font-size: 16vmin;
+	font-family: "Space Bd BT", Source Sans Pro, sans-serif;
+	text-shadow: 4px 4px rgba(0,0,0,.4);
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color:#c9001f;
+}
+
+h2{
+	font-weight: bold;
+    font-size: 12vmin;
+	font-family: "Space Bd BT", Source Sans Pro, sans-serif;
+	text-shadow: 4px 4px rgba(0,0,0,.4);
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color:#c9001f;
 }
 q:before,q:after {
     content:'';
@@ -297,12 +313,12 @@ body{
 	width: 960px;
 	position: relative;
 }
-h1{
-	font-size: 6em;
-}
+ 
+ 
+ 
 p {
-    font-size: 3em;
-    margin: 1em 0;
+    font-size: 7vw;
+
 	color: #000000;
 }
 .intro p{
@@ -312,11 +328,20 @@ p {
 }
 .section{
 	text-align:center;
+
+}
+
+.primaPagina{
+	line-height: auto;
+
+
 }
 #menu li {
 	display:inline-block;
 	margin: 10px;
+	font-size: 4vmin;
 	color: #000;
+	padding: 2vmin 3vmin 2vmin 3vmin;
 	background:#fff;
 	background: rgba(255,255,255, 0.5);
 	-webkit-border-radius: 10px;
@@ -355,6 +380,9 @@ p {
 	padding: 0;
 	margin:0;
 }
+
+
+
 .twitter-share-button{
 	position: fixed;
 	z-index: 99;
@@ -473,7 +501,18 @@ p {
 p.introimg {
     color: #000000;
     font-size: 5em;
-    margin: 0;
+    margin: 3vmin;
     line-height: 1em;
+	padding: 1vmin 0vmin 1vmin 0vmin;
 }
+
+p{
+	font-size: 10vmin;
+	font-family: Source Sans Pro, sans-serif;
+	text-shadow: 4px 4px rgba(0,0,0,.4);
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color:#ffcc00;
+}
+	
+
 
