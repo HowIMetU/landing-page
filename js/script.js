@@ -430,7 +430,15 @@
         * Slides right the slider of the active section.
         * Optional `section` param.
         */
-        function moveSlideRight(section){
+
+		
+		function moveSlideRight(section){
+			/*
+			section.css('background-image', "url(./img/manine.png)");
+			section.css('background-position', "center center"); 
+			section.css('background-size', "cover");	
+			section.css('background-repeat', "no-repeat");
+			*/
             moveSlide('right', section);
         }
 
@@ -439,6 +447,12 @@
         * Optional `section` param.
         */
         function moveSlideLeft(section){
+			/*
+			section.css('background-image', "url(./img/assomiglia2.jpg)");
+			section.css('background-position', "center center"); 
+			section.css('background-size', "cover");	
+			section.css('background-repeat', "no-repeat");
+			*/
             moveSlide('left', section);
         }
 
@@ -705,13 +719,15 @@
         function styleSlides(section, slides, numSlides){
             var sliderWidth = numSlides * 100;
             var slideWidth = 100 / numSlides;
+			var altezza = window.screen.height;
+			var larghezza = window.screen.width;
 
             slides.wrapAll('<div class="' + SLIDES_CONTAINER + '" />');
             slides.parent().wrap('<div class="' + SLIDES_WRAPPER + '" />');
 
             section.find(SLIDES_CONTAINER_SEL).css('width', sliderWidth + '%');
 
-            if(numSlides > 1){
+            if(numSlides > 1 && larghezza > 500){
                 if(options.controlArrows){
                     createSlideArrows(section);
                 }
@@ -723,7 +739,10 @@
 
             slides.each(function(index) {
                 $(this).css('width', slideWidth + '%');
-
+				$(this).css('background-image', "url(./img/slides/slide"+index+".png)");
+				$(this).css('background-position', "center center"); 
+				$(this).css('background-size', "cover");	
+				$(this).css('background-repeat', "no-repeat");
                 if(options.verticalCentered){
                     addTableClass($(this));
                 }
@@ -763,8 +782,17 @@
             if (typeof options.sectionsColor[index] !==  'undefined') {
                 section.css('background-color', options.sectionsColor[index]);
 				if (options.sectionsColor[index] === '#ffcc00'){
-					section.css('background-size','100% auto');
-					section.css('background-image', "url(./img/pizza-sharing.jpg)");
+					section.css('background-image', "url(./img/pizza-sharing3.jpg)");
+					section.css('background-position', "center center"); 
+					section.css('background-size', "cover");	
+					section.css('background-repeat', "no-repeat");
+				}					
+				else if (options.sectionsColor[index] === '#7BAABE'){
+					section.css('background-image', "url(./img/pantaloneRotto.jpg)");
+					section.css('background-position', "center center"); 
+					section.css('background-size', "cover");	
+					section.css('background-repeat', "no-repeat");
+					
 				}
             }
 			
