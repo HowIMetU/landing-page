@@ -8,7 +8,7 @@
 	<!--
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.css">
 	-->
-    <title>How i met U</title>
+    <title>mateSlot</title>
     <meta name="description" content="A brief page description">
 	<!--
 		<link rel="stylesheet" href="css/bulmra.css">
